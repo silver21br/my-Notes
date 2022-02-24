@@ -1,17 +1,22 @@
 Git | GitHub
+
 GitHub é uma plataforma para hospedagem, compartilhamento e controle de versão 
 de código utilizando o sistema Git de controle de versionamento. Também atua como 
 uma comunidade para programadores globais colaborarem em projetos pessoais e de 
 código-aberto, permitindo o networking dos desenvolvedores e o tracionamento de de 
 seus perfis conforme os seus engajamentos. Também dispõe de uma versão paga 
 para empresas e profissionais.
-Habilitando o ambiente git
+
+Habilitando o ambiente git - baixar o programa e instalar:
+
 - Ambientes Linux e derivados: 
 	Sudo apt-get install git
 - Ambientes Windows | Mac: 
 	Link download Git
+
 GitHub
-Versão web do Git. Mantém todas as suas funcionalidades e acrescentando: 
+Versão web do Git. Mantém todas as suas funcionalidades e acrescentando:
+ 
 - Maior repositório de códigos na nuvem disponível para a comunidade de 
 desenvolvedores para compartilhamento e colaboração;
 - Documentação;
@@ -21,9 +26,43 @@ desenvolvedores para compartilhamento e colaboração;
 - Notificações por e-mail;
 - Comparação de arquivos de imagens com versões anteriores;
 - GitHub pages: pequenos sites web com propósito específico;
-Usando o GitHub
+
+Outros recursos e Funções:
+
+- Forking: criação de um projeto a partir de um outro projeto já existente, mantendo todo 
+o lastro de atualizações e mudanças. Recurso muito poderos para o reaproveitamento (reuso 
+de código) e desenvolvimento colaborativo;
+- Pull Request: solicitação de reconhecimento de um mudança em um projeto original (depois
+de um fork) para o desenvolvedor original. Além disto, cria uma conexão direta entre o dono
+do projeto e o colaborador;
+- Rede social com perfis pessoais dos usuáios, permitindo o networking, discussões, compartilhamentos 
+e colaborações entre os desenvolvedores, além de tracionar a popularidade dos usuários
+conforme os seus engajamentos;
+- gitHub Résumé: cria um curriculum com as informações do usuário.
+
+Usando o GitHub:
+
 - Criar uma conta no site do GitHub;
 - Criar um repositório para armazenar todos os arquivos de um projeto, inclusive logs de 
-mudanças (pasta reconhecida e acessada através de uma url exclusiva);
+mudanças (pasta reconhecida e acessada através de uma url exclusiva). Cada projeto tem um
+repositório, que é acessado através de uma url específica.
 
+Criando uma página:
+
+- Crie um repositório: username.github.io (username: nome do usuário no github);
+- crie o arq index.html com o conteúdo de sua página (por ex: "Hello world);
+- Faça um add, commit e um push para testar as mudanças.
+
+Principais comando do git:
+
+- $ git config --global user.name "nome do usuário"
+- $ git config --global user.email "e-mail do usuário" (para clonar um repositório)
+- $ git clone https://github.com/user/"nome_repositório"
+- $ git init: inicializa o git
+- $ git status: arquivos no diretório e seus respectivos status 
+- $ git add . (inclui um ou mais ou todos os arquivos(.) para commit)
+- $ git commit -m "descritivo" (por ex: "meu primeiro commit")
+- $ git push -u (envia os arqs para o repositótio gitHub)
+- $ git remote add origin https://github.com
+ 
 
